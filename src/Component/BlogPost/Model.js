@@ -14,7 +14,7 @@ const ModelBlog = () => {
   return (
     <>
       <Button type="primary" onClick={showModal}>
-        Open Modal
+        Read More...
       </Button>
       <Modal
         title="Basic Modal"

@@ -8,11 +8,11 @@ export default function Blog() {
         <h1>banner</h1>
       </div>
       <div className="selection">
-        <button className="btn">Hackathon</button>
-        <button className="btn">Event</button>
-        <button className="btn">NewsLetter</button>
-        <button className="btn">CLI</button>
-        <button className="btn">Industial Trip</button>
+        <button className="button button-3">Hackathon</button>
+        <button className="button button-3">Event</button>
+        <button className="button button-3">NewsLetter</button>
+        <button className="button button-3">CLI</button>
+        <button className="button button-3">Industial Trip</button>
       </div>
       <div className="AppPost">
         <Post />
