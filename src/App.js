@@ -1,11 +1,12 @@
 import "./App.css";
 import Navbar from "./Component/header";
 import { BrowserRouter } from "react-router-dom";
-import Home from "./Component/home";
-import CardExample from "./Component/corousel";
+
 // import Testimonial from "./Component/testimonial";
+
 import HigherStudiesCarousel from "./Component/HigherStudiesCarousel";
 import Event from "./Component/events";
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
       </BrowserRouter>
+
       <div>
         <Home />
       </div>
@@ -23,6 +25,7 @@ function App() {
       <div>
         <CardExample />
       </div>
+
     </div>
   );
 }
