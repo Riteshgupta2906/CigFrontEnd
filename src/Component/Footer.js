@@ -65,7 +65,6 @@ export default function App() {
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <img src={cigLogo} alt="logo" />
-                  <span className='m-2'>CIG</span>
               </h6>
               <p>
               We bring Corporate and Academia together for valuable collaborations.
