@@ -1,8 +1,9 @@
 import { Routes, Route, NavLink } from "react-router-dom";
 import Brand from "./logo-temp.svg";
-import "./header.css";
+// import "./header.css";
 import HomePage from "./HomePage";
 import Blog from "./BlogPost/blog";
+import Contact from "./contact"
 
 const Navbar = () => {
   return (
@@ -37,6 +38,7 @@ const Navbar = () => {
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="/contact" element={<Contact />} />
       </Routes>
     </>
   );
