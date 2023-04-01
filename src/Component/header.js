@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Brand from "./logo-temp.svg";
 import "./header.css";
-
+import events from "./events";
 const Navbar = () => {
   return (
     <nav className="navbar">

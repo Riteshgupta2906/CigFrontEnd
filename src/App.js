@@ -5,16 +5,18 @@ import Home from "./Component/home";
 import CardExample from "./Component/corousel";
 // import Testimonial from "./Component/testimonial";
 import HigherStudiesCarousel from "./Component/HigherStudiesCarousel";
-
+import Event from "./Component/events";
 function App() {
   return (
     <div className="App">
+      {/* <div><Event/></div> */}
       <BrowserRouter>
         <Navbar />
       </BrowserRouter>
       <div>
         <Home />
       </div>
+     
       <div>
         <HigherStudiesCarousel />
       </div>
