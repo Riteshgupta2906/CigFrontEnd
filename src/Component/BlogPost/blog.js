@@ -7,7 +7,7 @@ export default function Blog() {
     <div className="blog">
       <div className="banner">
         <div className="blogContent">
-          <h1>BLOG</h1>
+          <h1 id="Heading">BLOG</h1>
           <div>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -33,10 +33,6 @@ export default function Blog() {
         <Post />
         <Post />
         <Post />
-      </div>
-
-      <div className="footer">
-        <h1>footer</h1>
       </div>
     </div>
   );

@@ -10,13 +10,14 @@ body {
   height: 100%;
   width: 100%;
 }
-h1 {
+
+#Heading {
   font-size: 5em;
 }
 
 .banner {
-  margin: 100px 0 200px 0;
-  height: 400px;
+  margin: 100px 0 100px 0;
+  height: 500px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -25,20 +26,17 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 100px;
+  margin-left: 100px;
   text-align: justify;
   width: 40%;
 }
 .selection {
-  margin: 15px 5px 10px 10px;
-
+  margin: 15px 5px 10px 160px;
   display: flex;
-  justify-content: space-evenly;
+  width: 80%;
+  justify-content: space-around;
 }
 
-.footer {
-  background-color: violet;
-}
 .btn {
   border-radius: 10%;
 }
@@ -75,6 +73,7 @@ h1 {
 .description {
   width: 100%;
   padding: 10px;
+  text-align: justify;
 }
 .AppPost {
   display: flex;
@@ -96,9 +95,9 @@ span {
 }
 
 .button {
-  width: 110px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   color: #000;
   text-transform: uppercase;
@@ -110,9 +109,11 @@ span {
 }
 
 .button-3 {
+  font-family: "Poppins";
+  font-size: medium;
   border: 2px solid #3c73ff;
   background-color: #3c73ff;
-  border-radius: 20px;
+  border-radius: 10px;
   color: #fff;
   transition: 0.3s;
 }
@@ -121,6 +122,6 @@ span {
   transition: 0.3s;
 }
 .postImage {
-  width: 400px;
+  width: 500px;
   height: 100%;
 }

@@ -3,7 +3,7 @@ import Brand from "./logo-temp.svg";
 import "./header.css";
 import HomePage from "./HomePage";
 import Blog from "./BlogPost/blog";
-
+import FooterC from "./Footer/container/footer";
 const Navbar = () => {
   return (
     <>
@@ -38,6 +38,7 @@ const Navbar = () => {
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/blog" element={<Blog />} />
       </Routes>
+      <FooterC />
     </>
   );
 };
