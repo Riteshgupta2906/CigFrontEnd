@@ -3,20 +3,31 @@ body {
   padding: 0;
 }
 .blog {
-  font-family: sans-serif;
+  font-family: poppins, sans-serif;
   text-align: center;
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
 }
-.header {
-  background-color: red;
-  margin-top: 0;
+h1 {
+  font-size: 5em;
 }
+
 .banner {
-  background-color: yellow;
-  height: 300px;
+  margin: 100px 0 200px 0;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.blogContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 100px;
+  text-align: justify;
+  width: 40%;
 }
 .selection {
   margin: 15px 5px 10px 10px;
@@ -108,4 +119,8 @@ span {
 .button-3:hover {
   box-shadow: 8px 8px #99bdff;
   transition: 0.3s;
+}
+.postImage {
+  width: 400px;
+  height: 100%;
 }
