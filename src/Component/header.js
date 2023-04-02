@@ -38,6 +38,8 @@ const Navbar = () => {
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="/event" element={<Blog />} />
+        {/* yaha pe Event ko import krke blog ki jgh event likhna bs and folder alag bananna */}
       </Routes>
       <FooterC />
     </>
