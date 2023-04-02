@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import { Switch, Route, Redirect } from "react-router-dom";
-import bg from "./images/home_bg.svg";
+import bg from "./images/home_bg1.svg";
 import hand from "./images/home_hand.svg";
 import man from "./images/man1.svg";
 import up from "./images/up.png";
@@ -161,29 +161,13 @@ class Home extends Component {
     return (
       <div id="home-main">
         <div id="home_img">
-          <div id="title">Bridging the gap between Corporate and Academia</div>
-
-          <div id="sub">
-            By providing a platform for academia and industry to interact, CIG
-            proffers to connect, collaborate and innovate{" "}
-            {/* The Corporate Interaction Group (CIG) at IIT Roorkee works as a
-            platform that connects academia and industry with the goal of
-            promoting collaboration and innovation
-         
-            The CIG hosts events such as research trips, workshops, networking
-            opportunities, and panel discussions that bring together corporate
-            representatives and academic experts. These events provide a forum
-            for exchanging ideas and knowledge, and allow participants to build
-            relationships that can lead to new collaborations. */}
-          </div>
-
           <div id="btn_home">
             <span> Let’s Collaborate</span>{" "}
           </div>
           <img id="img_home" src={bg} alt="img-home" />
           <img id="home_head" src={home_head} alt="home-head" />
           <img id="home_head_a" src={home_head_a} alt="home-head-a" />
-          <img id="hand" src={hand} alt="hand-img" />
+          {/* <img id="hand" src={hand} alt="hand-img" /> */}
           <img id="line" src={line} alt="line-img" />
           {/* <img
             name="left"
