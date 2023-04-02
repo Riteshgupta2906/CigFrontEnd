@@ -10,6 +10,7 @@ import left_arrow from "./images/left_arrow.svg";
 import right_arrow from "./images/right_arrow.svg";
 import man_a from "./images/man_a1.svg";
 import line from "./images/line.svg";
+
 import Mask from "./images/mask.png";
 // import Img from "./images/image.png";
 import Comp from "./images/cls_comp.svg";

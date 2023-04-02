@@ -1,20 +1,21 @@
 import Model from "./Model";
+import money from "../postImage/Moneystress.svg";
 import "./styles.css";
 export default function Post() {
   return (
     <div className="post">
       <div className="img">
-        <img alt=""></img>
+        <img src={money} alt=""></img>
       </div>
       <div className="content">
-        <div className="heading">Recession </div>
-        <div className="description">
+        <h2 className="heading">Recession</h2>
+        <p className="description">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s,
-        </div>
+        </p>
       </div>
-      <Model />
+      <Model img={money} title="Recession" />
     </div>
   );
 }

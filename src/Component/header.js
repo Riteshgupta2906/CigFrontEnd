@@ -4,6 +4,7 @@ import "./header.css";
 import HomePage from "./HomePage";
 import Blog from "./BlogPost/blog";
 import FooterC from "./Footer/container/footer";
+
 const Navbar = () => {
   return (
     <>
@@ -40,6 +41,7 @@ const Navbar = () => {
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/event" element={<Blog />} />
         {/* yaha pe Event ko import krke blog ki jgh event likhna bs and folder alag bananna */}
+        {/* <Route exact path="/contact" element={<Contact />} /> */}
       </Routes>
       <FooterC />
     </>

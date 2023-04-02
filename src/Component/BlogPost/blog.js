@@ -1,7 +1,7 @@
 import "./styles.css";
 import Post from "./post";
 import postImage from "../images/CreativeWriting.svg";
-
+import Team from "./team";
 export default function Blog() {
   return (
     <div className="blog">
@@ -34,6 +34,7 @@ export default function Blog() {
         <Post />
         <Post />
       </div>
+      <Team />
     </div>
   );
 }
