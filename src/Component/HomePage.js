@@ -1,7 +1,7 @@
 import "../App.css";
 
 import Home from "./home";
-import CardExample from "./corousel";
+import CardExample from "./Corousel/corousel";
 // import Testimonial from "./Component/testimonial";
 import HigherStudiesCarousel from "./HigherStudiesCarousel";
 function HomePage() {
@@ -11,10 +11,10 @@ function HomePage() {
         <Home />
       </div>
       <div>
-        <HigherStudiesCarousel />
+        <CardExample />
       </div>
       <div>
-        <CardExample />
+        <HigherStudiesCarousel />
       </div>
     </div>
   );
