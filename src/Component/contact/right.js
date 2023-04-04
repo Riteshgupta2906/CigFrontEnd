@@ -4,7 +4,7 @@ export default function Right() {
     return (
       <>
         <form action="https://formsubmit.co/aryandhiman0510@gmail.com" method="POST">
-            <input type="hidden" name="_template" value="box"></input>
+            <input type="hidden" name="_template" value="table"></input>
             <div className='row'>
                 <label>Name</label>
                 <input type='text' placeholder='Full Name' name='Name' required></input>
