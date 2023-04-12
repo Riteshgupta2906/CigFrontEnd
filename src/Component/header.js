@@ -7,6 +7,7 @@ import Event from "./Events/blog";
 import FooterC from "./Footer/container/footer";
 import About from "./About/newAbout";
 import Resources from "./Resources/Resources";
+import Contact from "./contact/contact"
 
 const Navbar = () => {
   return (
@@ -48,6 +49,7 @@ const Navbar = () => {
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/event" element={<Event />} />
         <Route exact path="/resource" element={<Resources />} />
+        <Route exact path="/contact" element={<Contact />} />
         {/* yaha pe Event ko import krke blog ki jgh event likhna bs and folder alag bananna */}
         {/* <Route exact path="/contact" element={<Contact />} /> */}
       </Routes>
