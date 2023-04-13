@@ -112,11 +112,11 @@ span {
 }
 
 #man {
-  width: 40.99vw;
-  height: 41.24vw;
+  width: 35.99vw;
+  height: 30.24vw;
   position: relative;
   right: 25%;
-  margin-top: 100px;
+  margin-top: 280px;
 }
 
 #arrow {
@@ -144,9 +144,9 @@ span {
 }
 
 #man_a {
-  margin-top: 2.6vw;
-  width: 37.7vw;
-  height: 33.6vw;
+  margin-top: 7.5vw;
+  width: 35.7vw;
+  height: 30.6vw;
   margin-left: 54.3vw;
 }
 

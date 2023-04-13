@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import { Switch, Route, Redirect } from "react-router-dom";
-import bg from "./images/home_bg1.svg";
+//import bg from "./images/home_bg1.svg";
+import bg from "./images/home_bg_2.svg";
 import hand from "./images/home_hand.svg";
 import man from "./images/man1.svg";
 import up from "./images/up.png";
