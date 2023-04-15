@@ -5,13 +5,13 @@ import bg from "./images/home_bg_2.svg";
 import hand from "./images/home_hand.svg";
 import man from "./images/man1.svg";
 import up from "./images/up.png";
-import home_head from "./images/home_head.svg";
-import home_head_a from "./images/home_head_a.png";
+import home_head from "./images/corporate.svg";
+import home_head_a from "./images/academia.svg";
 import left_arrow from "./images/left_arrow.svg";
 import right_arrow from "./images/right_arrow.svg";
 import man_a from "./images/man_a1.svg";
 import line from "./images/line.svg";
-
+import cbutton from "./images/collabbutton.svg";
 import Mask from "./images/mask.png";
 // import Img from "./images/image.png";
 import Comp from "./images/cls_comp.svg";
@@ -164,13 +164,17 @@ class Home extends Component {
       <div id="home-main">
         <div id="home_img">
           <div id="btn_home">
-            <span> Let’s Collaborate</span>{" "}
+            <a href="">
+              <img id="cbutton" src={cbutton} alt="collabb" />
+            </a>
+
+            {/* <span> Let’s Collaborate</span>{" "} */}
           </div>
           <img id="img_home" src={bg} alt="img-home" />
           <img id="home_head" src={home_head} alt="home-head" />
           <img id="home_head_a" src={home_head_a} alt="home-head-a" />
           {/* <img id="hand" src={hand} alt="hand-img" /> */}
-          <img id="line" src={line} alt="line-img" />
+          {/* <img id="line" src={line} alt="line-img" /> */}
           {/* <img
             name="left"
             id="left_arrow_home"

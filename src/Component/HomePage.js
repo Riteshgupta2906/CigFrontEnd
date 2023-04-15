@@ -1,5 +1,5 @@
 import "../App.css";
-
+import "./Homepage.css";
 import Home from "./home";
 import CardExample from "./Corousel/corousel";
 // import Testimonial from "./Component/testimonial";
@@ -10,7 +10,7 @@ function HomePage() {
       <div>
         <Home />
       </div>
-      <div>
+      <div id="featuredworks">
         <CardExample />
       </div>
       <div>

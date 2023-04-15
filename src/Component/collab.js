@@ -2,7 +2,30 @@ import React, { Component } from "react";
 // import logo from "./logo.svg";
 import "./collab.css";
 // import { Switch, Route, Redirect } from "react-router-dom";
-import sample from "./images/sample.png";
+import sample from "./images/sample_collab.svg";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import { Stack } from "@mui/material";
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 5,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 class Collab extends Component {
   constructor(props) {
@@ -116,37 +139,43 @@ class Collab extends Component {
   render() {
     return (
       <div id="collab_card">
-        <div className="row_collab">
-          <div className="column_col">
-            <img className="col_img" src={sample} alt="collab1" />
+        <div>
+          <div id="work_count" ref={this.count}>
+            {" "}
+            {this.state.Workshops_count}
           </div>
-          <div className="column_col">
-            <img className="col_img" src={sample} alt="collab2" />
+          <div id="work"> Workshops</div>
+          <div id="lec_count" ref={this.lect_count}>
+            {" "}
+            {this.state.Lecture_count}
           </div>
 
-          <div className="column_col">
-            <img className="col_img" src={sample} alt="collab3" />
-          </div>
-          <div className="column_col">
-            <img className="col_img" src={sample} alt="collab4" />
-          </div>
-          <div className="column_col">
-            <img className="col_img" src={sample} alt="collab5" />
-          </div>
-          <div className="column_col">
-            <img className="col_img" src={sample} alt="collab6" />
-          </div>
+          <div id="lec">Lectures & Seminars</div>
         </div>
-        <div id="work_count" ref={this.count}>
-          {" "}
-          {this.state.Workshops_count}
+
+        <div className="row_collab">
+          <Stack direction="row">
+            <div className="column_col">
+              <img className="col_img" src={sample} alt="collab1" />
+            </div>
+            <div className="column_col">
+              <img className="col_img" src={sample} alt="collab2" />
+            </div>
+
+            <div className="column_col">
+              <img className="col_img" src={sample} alt="collab3" />
+            </div>
+            <div className="column_col">
+              <img className="col_img" src={sample} alt="collab4" />
+            </div>
+            <div className="column_col">
+              <img className="col_img" src={sample} alt="collab5" />
+            </div>
+            <div className="column_col">
+              <img className="col_img" src={sample} alt="collab6" />
+            </div>
+          </Stack>
         </div>
-        <div id="lec_count" ref={this.lect_count}>
-          {" "}
-          {this.state.Lecture_count}
-        </div>
-        <div id="work"> Workshops</div>
-        <div id="lec">Lectures & Seminars</div>
       </div>
     );
   }

@@ -1,12 +1,13 @@
-//***********Made By Rahul Modi************/
 import React, { useState, useEffect, useCallback } from "react";
 
 import HS__Data from "./HigherStudiesData";
-
+import Stack from "@mui/material/Stack";
 import "./HigherStudiesCarousel.css";
-import LeftArrow from "./images/LeftArrow.svg";
-import RightArrow from "./images/RightArrow.svg";
+import LeftArrow from "./images/leftr.svg";
+import RightArrow from "./images/rightrr.svg";
 import HigherStudiesCarousel__bg from "./images/Ellipse.png";
+import testimonialbg from "./images/testimonialbg.svg";
+import { ResponsiveContainer } from "react-stacked-center-carousel";
 
 const HigherStudiesCarousel = () => {
   const [current, setCurrent] = useState(0);
@@ -35,8 +36,11 @@ const HigherStudiesCarousel = () => {
 
   return (
     <div className="main_container">
-      <div id="featured">
-        <h1>Testimonials</h1>
+      <div id="tfeatured">
+        <img id="tbg" src={testimonialbg} alt="tbg"></img>
+        <div id="txt">
+          <h1 id="thd">Testimonials</h1>
+        </div>
       </div>
       <div className="HigherStudies__Carousel">
         <img
@@ -47,20 +51,26 @@ const HigherStudiesCarousel = () => {
         />
         <div className="HS__CarouselSpace">
           <div className="HS__CarouselImg">
-            <img
+            {/* <img
               className="HS__CarouselBg"
               src={HigherStudiesCarousel__bg}
               alt="Bg envelop"
-            />
-            <img
-              className="HS__CarouselPic"
-              src={HS__Data[current].image}
-              alt="Author"
-            />
+            /> */}
+            <Stack spacing={20}>
+              <div>
+                <img
+                  className="HS__CarouselPic"
+                  src={HS__Data[current].image}
+                  alt="Author"
+                />
+              </div>
+              <div id="desig">
+                <h3>{HS__Data[current].name}</h3>
+                <h4>{HS__Data[current].designation}</h4>
+              </div>
+            </Stack>
           </div>
           <div className="HS__CarouselData">
-            <h3>{HS__Data[current].name}</h3>
-            <h4>{HS__Data[current].designation}</h4>
             <p>{HS__Data[current].description}</p>
             {/* <a href={HS__Data[current].link}>Read More</a> */}
           </div>
