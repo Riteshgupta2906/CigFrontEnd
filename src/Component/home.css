@@ -60,7 +60,15 @@
   background: #102886;
   border-radius: 3px;
 }
+#cbutton {
+  position: absolute;
 
+  width: 100%;
+  left: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
 span {
   position: absolute;
   top: 0.65vw;
@@ -116,9 +124,18 @@ span {
   height: 30.24vw;
   position: relative;
   right: 25%;
-  margin-top: 280px;
+  margin-top: 235px;
 }
-
+@media screen and (max-width: 968px) {
+  /* CSS styles go here */
+  #man {
+    width: 35.99vw;
+    height: 30.24vw;
+    position: relative;
+    right: 25%;
+    margin-top: 105px;
+  }
+}
 #arrow {
   position: fixed;
   width: 3.07vw;
@@ -129,8 +146,11 @@ span {
 
 #home_head {
   position: absolute;
-  width: 34.1vw;
-  height: 17.4vw;
+  /* width: 34.1vw; */
+  width: 41.9vw;
+  /* height: 17.4vw; */
+  height: 16.69vw;
+
   left: 53.5vw;
   top: 67.06vw;
 }
@@ -140,10 +160,11 @@ span {
   width: 41.9vw;
   height: 16.69vw;
   left: 8.74vw;
-  top: 108.3vw;
+  top: 107.3vw;
 }
 
 #man_a {
+  position: relative;
   margin-top: 7.5vw;
   width: 35.7vw;
   height: 30.6vw;

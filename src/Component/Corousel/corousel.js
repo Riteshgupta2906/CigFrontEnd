@@ -68,7 +68,14 @@ const CardExample = () => {
   return (
     <div className="card">
       <div id="featured">
-        <h1>Featured Works</h1>
+        <h1
+          style={{
+            textAlign: "left",
+            marginLeft: "122px",
+          }}
+        >
+          Featured Works
+        </h1>
       </div>
       <div
         style={{

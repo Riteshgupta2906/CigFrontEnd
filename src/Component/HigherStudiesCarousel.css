@@ -10,17 +10,30 @@
   width: 95%;
   position: relative;
   left: 5%;
-  margin-top: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .HigherStudies__Carousel {
-  width: 90%;
+  /* width: 90%;
   margin: 6rem 0;
   padding: 0 2rem;
   display: grid;
   grid-template-columns: auto auto auto;
   column-gap: 5rem;
   height: 250px;
-  align-items: center;
+  align-items: center; */
+  width: 1040px;
+  height: 298px;
+
+  background: #ffffff;
+  box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 45px;
+  margin-left: 200px;
 }
 
 #PartFirst {
@@ -47,6 +60,26 @@
 .HS__CarouselImg {
   position: relative;
   max-width: 40%;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 180px;
+  height: 238px;
+}
+#desig {
+  width: 128px;
+  height: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 135%;
+  /* or 24px */
+
+  color: #323232;
 }
 
 .HS__CarouselImg img {
@@ -60,11 +93,12 @@
 
 .HS__CarouselPic {
   position: absolute;
-  top: 0;
-  left: 0;
   transform: scale(0.9);
   border-radius: 20px;
-  margin-top: 30px;
+  margin-top: 0px;
+  width: 180px;
+  height: 180px;
+  margin-left: -95px;
 }
 
 .HS__CarouselData {
@@ -74,25 +108,44 @@
   row-gap: 1rem;
 }
 
+#tfeatured {
+  position: relative;
+  text-align: left;
+}
+#txt {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  /* text-align: left; */
+  z-index: 1;
+}
+
 .HS__CarouselData > h2,
 .HS__CarouselData > h4 {
   margin: 0;
-  font-family: sansation-bold;
-  font-style: bold;
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.375rem;
-  letter-spacing: 0.04em;
-  color: #3f3f3f;
+  width: 74px;
+  height: 22px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  /* identical to box height, or 22px */
+
+  color: #595b5f;
 }
 
 .HS__CarouselData > p,
 .HS__CarouselData > a {
-  font-family: sansation-regular;
+  font-family: Roboto;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 131%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24.3px;
   letter-spacing: 0.04em;
   font-size: 17px;
   color: #000000;
@@ -108,6 +161,8 @@
   .HigherStudies__Carousel {
     column-gap: 2rem;
     height: 600px;
+    width: 700px;
+    margin-left: 0px;
   }
   .HS__CarouselSpace {
     column-gap: 2rem;
@@ -115,7 +170,13 @@
 }
 .LU__Navigation {
   position: relative;
-  left: 50px;
+  left: -100px;
+  top: 120px;
+}
+.RU__Navigation {
+  position: relative;
+  left: 100px;
+  top: 120px;
 }
 
 @media (max-width: 800px) {
@@ -142,4 +203,6 @@
     column-gap: 1rem;
     max-width: 100%;
   }
+}
+#tbg {
 }
