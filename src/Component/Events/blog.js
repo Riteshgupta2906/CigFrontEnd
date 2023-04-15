@@ -1,5 +1,5 @@
 import "./styles.css";
-import Post from "./post";
+import Post from "../BlogPost/newPost";
 import postImage from "../images/CreativeWriting.svg";
 
 export default function Blog() {

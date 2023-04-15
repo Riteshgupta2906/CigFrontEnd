@@ -1,6 +1,7 @@
 import "./styles.css";
-import Post from "./post";
+
 import postImage from "../images/CreativeWriting.svg";
+import NewPost from "./newPost";
 
 export default function Blog() {
   return (
@@ -28,12 +29,18 @@ export default function Blog() {
         <button className="button button-3">CLI</button>
         <button className="button button-3">Industial Trip</button>
       </div>
-      <div className="AppPost">
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-      </div>
+      <main className="outer">
+        <div className="inner">
+          <div className="post-feed">
+            <NewPost />
+            <NewPost />
+            <NewPost />
+            <NewPost />
+            <NewPost />
+            <NewPost />
+          </div>
+        </div>
+      </main>
     </div>
   );
 }

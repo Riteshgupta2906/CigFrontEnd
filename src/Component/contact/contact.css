@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0;
   padding: 0;
 }
 
-.empty{
+.empty {
   height: 7em;
 }
 
 /* --------- Heading ------------- */
 
-.heading {
+.ContactUsContainer > .heading {
   margin: 0 auto;
+  width: 80%;
 }
 
 .header {
@@ -38,7 +39,6 @@ iframe {
   border: 0;
 }
 
-
 /* ------- Side-To-Side --------- */
 
 .sideToSide {
@@ -49,7 +49,9 @@ iframe {
 
 /* ------- Left --------- */
 
-.address, .email, .phone {
+.address,
+.email,
+.phone {
   display: flex;
   margin-bottom: 2em;
 }
@@ -58,7 +60,7 @@ iframe {
   margin-left: 1.25em;
 }
 
-.semiHeading{
+.semiHeading {
   font-weight: 600;
   font-size: 1.5em;
   margin-bottom: 0.25em;
@@ -72,7 +74,8 @@ iframe {
 
 /* ------- Right --------- */
 
-input, textarea {
+input,
+textarea {
   margin-top: 0.5em;
   margin-bottom: 2em;
   font-family: poppins, sans-serif;
@@ -83,10 +86,11 @@ input, textarea {
   margin-bottom: 8px;
   outline: none;
   box-sizing: border-box;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   border-color: dodgerblue;
   box-shadow: 0 0 8px 0 dodgerblue;
 }
@@ -100,7 +104,7 @@ input:focus, textarea:focus {
 button {
   font-family: poppins, sans-serif;
   font-size: 18px;
-  background: #3C4DC2;
+  background: #3c4dc2;
   border: none;
   width: 100px;
   padding: 10px;
@@ -109,13 +113,14 @@ button {
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
 }
 
-button:hover, button:focus{
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);  
-}
+/* button:hover,
+button:focus {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+} */

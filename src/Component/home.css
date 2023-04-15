@@ -61,7 +61,7 @@
   border-radius: 3px;
 }
 
-span {
+.btn_home > span {
   position: absolute;
   top: 0.65vw;
   width: 100%;
