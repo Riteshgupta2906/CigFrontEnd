@@ -1,0 +1,42 @@
+
+[{
+    "id":0,
+    "time":"06.07.2019",
+     "title":"Challenges and Opportunities in Cloud Operations",
+     "description":"This is about little intro",
+     "image":"image",
+     "content":"CIG in its segment of Corporate Lecture Series presented a lecture on Challenges & Opportunities in Cloud Operations by Mr. Raman Krishnaswami (Senior Director of Global Cloud Operations at SAP). In this lecture he showcased opportunities for students and experts to come up with innovative solutions and get full value from the transition to Cloud based computing."
+},
+{
+"id":1,
+"time":"07.10.2019",
+"title":"Changing Trends in Steel Sector in 21st Century India",
+"description":"This is about little intro",
+"image":"image",
+"content":"For the next event of the Corporate Lecture Series CIG invited Mr. P. K. Singh an alumnus of IIT Roorkee to talk about Changing Trends in the Steel Sector in 21st Century India. Mr. P. K. Singh is the Executive Director at APL Apollo Tubes Ltd. and is also the ex-chairperson and Managing Director at SAIL."
+},
+{
+    "id":2,
+    "time":"08.04.2020",
+     "title":"Challenges and Opportunities in Cloud Operations",
+     "description":"This is about little intro",
+     "image":"image",
+     "content":"CIG in its segment of Corporate Lecture Series presented a lecture on Challenges & Opportunities in Cloud Operations by Mr. Raman Krishnaswami (Senior Director of Global Cloud Operations at SAP). In this lecture he showcased opportunities for students and experts to come up with innovative solutions and get full value from the transition to Cloud based computing."
+},
+{
+"id":3,
+"time":"09.10.2018",
+"title":"Changing Trends in Steel Sector in 21st Century India",
+"description":"This is about little intro",
+"image":"image",
+"content":"For the next event of the Corporate Lecture Series CIG invited Mr. P. K. Singh an alumnus of IIT Roorkee to talk about Changing Trends in the Steel Sector in 21st Century India. Mr. P. K. Singh is the Executive Director at APL Apollo Tubes Ltd. and is also the ex-chairperson and Managing Director at SAIL."
+},
+{
+    "id":4,
+    "time":"10.10.2018",
+    "title":"Changing Trends in Steel Sector in 21st Century India",
+    "description":"This is about little intro",
+    "image":"image",
+    "content":"For the next event of the Corporate Lecture Series CIG invited Mr. P. K. Singh an alumnus of IIT Roorkee to talk about Changing Trends in the Steel Sector in 21st Century India. Mr. P. K. Singh is the Executive Director at APL Apollo Tubes Ltd. and is also the ex-chairperson and Managing Director at SAIL."
+    }
+] 

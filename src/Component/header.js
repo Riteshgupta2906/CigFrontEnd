@@ -1,6 +1,9 @@
 import { Routes, Route, NavLink } from "react-router-dom";
 import Brand from "./logo-temp.svg";
 import "./header.css";
+
+import events from "./events";
+
 import HomePage from "./HomePage";
 import Blog from "./BlogPost/blog";
 import Event from "./Events/blog";
@@ -8,6 +11,7 @@ import FooterC from "./Footer/container/footer";
 import About from "./About/newAbout";
 import Resources from "./Resources/Resources";
 import Contact from "./contact/contact"
+
 
 const Navbar = () => {
   return (
