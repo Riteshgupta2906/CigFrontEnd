@@ -35,10 +35,9 @@ export default function Blog() {
   };
   return (
     <div className="blog">
-      <div className="banner">
-        <div className="blogContent">
-          <h1 id="Heading">CIG</h1>
-          <div>
+     <div className="b">
+      <div className="content">
+      <h1 id="Heading">CIG</h1>
             <p>
               Corporate Interaction Group(CIG) is a student body of IITR founded
               on Ist October 2015 that works for creating and nurturing
@@ -47,10 +46,10 @@ export default function Blog() {
               innovating our society that is mutually beneficial to both IIT
               Roorkee and the industries.
             </p>
-          </div>
-        </div>
-        <img className="postImage" src={postImage} alt=""></img>
       </div>
+      <img className="postImage" src={postImage} alt=""></img>
+     </div>
+
 
       <div className="objective">
         <div className="aboutDiv">
@@ -98,8 +97,11 @@ export default function Blog() {
       </div>
       <br />
       <h2>Team</h2>
+     
       <div className="student">
+    
         <div className="stuselection">
+      
           <button
             onClick={handleClick}
             name="W"

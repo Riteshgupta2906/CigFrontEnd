@@ -75,7 +75,7 @@
 .cardG {
   width: 280px;
   height: 360px;
-  margin-right: 75px;
+  margin:0 auto;
   /* background: #f1f1f1; */
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
@@ -97,8 +97,16 @@
   /* margin: 20px; */
 }
 .groupsData {
-  width: 100%;
-  margin: 100px 0 100px 0;
+  width: 90%;
+  margin: 100px auto;
+}
+.cardG{
+/* width:250px; */
+padding:10px;
+}
+
+.react-multiple-carousel__arrow{
+  width:30px;
 }
 
 .react-multi-carousel-list {

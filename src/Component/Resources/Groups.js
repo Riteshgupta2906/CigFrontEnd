@@ -8,19 +8,19 @@ const Groups = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      breakpoint: { max: 3000, min: 1500 },
+      items: 4,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 5,
+      breakpoint: { max: 1500, min: 1100 },
+      items: 3,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1100, min: 750 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 750, min: 0 },
       items: 1,
     },
   };
@@ -29,7 +29,7 @@ const Groups = () => {
     <>
       <div className="groupsData">
         <h1>Technical Groups</h1>
-        <Carousel infinite={true} responsive={responsive}>
+        <Carousel infinite={true} responsive={responsive} autoPlay={true} autoPlaySpeed={3000}>
           {techData.map((data, idx) => {
             return (
               <div className="cardG invisible-scrollbar" key={idx}>

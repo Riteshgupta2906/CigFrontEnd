@@ -1,7 +1,7 @@
 import AddressSVG from "./svgs/address"
 import EmailSVG from "./svgs/email"
 import PhoneSVG from "./svgs/phone"
-
+import React from "react";
 
 export default function Left() {
   return (
@@ -51,9 +51,9 @@ export default function Left() {
                 +91 1332 285378 <br></br>
               </div>
               <div className="Col"> 
-                Aman Vishwakarma <br></br>
+                Hardik <br></br>
                 Chairperson <br></br>
-                +91 9569802087 <br></br>
+                +91 8791023775 <br></br>
               </div>
             </div>
           </div>

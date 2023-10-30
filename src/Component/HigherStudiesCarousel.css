@@ -8,18 +8,22 @@
 }
 .main_container {
   width: 95%;
-  position: relative;
-  left: 5%;
-  margin-top: 20%;
+  /* position: relative;
+  left: 5%; */
+  margin:0 auto;
+  margin-bottom: 10%;
+  
 }
+
 .HigherStudies__Carousel {
   width: 90%;
-  margin: 6rem 0;
-  padding: 0 2rem;
+  margin: 6rem auto;
+  margin-top: 0;
+  /* padding: 0 2rem; */
   display: grid;
   grid-template-columns: auto auto auto;
   column-gap: 5rem;
-  height: 250px;
+  height: 240px;
   align-items: center;
 }
 
@@ -41,7 +45,7 @@
   flex-direction: row;
   justify-content: center;
   column-gap: 6.663rem;
-  padding-left: 20px;
+  margin:0 auto;
 }
 
 .HS__CarouselImg {
@@ -60,11 +64,13 @@
 
 .HS__CarouselPic {
   position: absolute;
-  top: 0;
+  top:0;
   left: 0;
   transform: scale(0.9);
   border-radius: 20px;
   margin-top: 30px;
+  width:150px;
+  height:150px;
 }
 
 .HS__CarouselData {
@@ -107,21 +113,24 @@
 @media (max-width: 1000px) {
   .HigherStudies__Carousel {
     column-gap: 2rem;
-    height: 600px;
+    height: 550px;
   }
   .HS__CarouselSpace {
     column-gap: 2rem;
   }
 }
-.LU__Navigation {
+/* .LU__Navigation {
   position: relative;
   left: 50px;
-}
+} */
 
 @media (max-width: 800px) {
   .HS__CarouselImg {
     position: relative;
     max-width: 100%;
+  }
+  .HigherStudies__Carousel{
+    height:650px;
   }
   .HS__CarouselSpace {
     justify-self: center;
@@ -137,9 +146,12 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 490px) {
   .HS__CarouselSpace {
     column-gap: 1rem;
     max-width: 100%;
+  }
+  .HigherStudies__Carousel{
+    height:700px;
   }
 }

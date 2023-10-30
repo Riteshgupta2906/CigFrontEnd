@@ -3,15 +3,15 @@
 // import HS__img3 from "./images/aot.jpg";
 
 const HS__Data = [
-  {
-    id: 1,
-    name: " Dr. Ajit Kumar Chaturvedi",
-    // image: HS__img1,
-    designation: "Director, IIT Roorkee",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
-    link: "http://watchout.iitr.ac.in/2020/11/summer-diaries-harvard-university-and-iiit-delhi",
-  },
+  // {
+  //   id: 1,
+  //   name: " Dr. Ajit Kumar Chaturvedi",
+  //   image: "cig_logo.ico",
+  //   designation: "Director, IIT Roorkee",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
+  //   link: "http://watchout.iitr.ac.in/2020/11/summer-diaries-harvard-university-and-iiit-delhi",
+  // },
   {
     id: 2,
     name: "Abhishek Jain",

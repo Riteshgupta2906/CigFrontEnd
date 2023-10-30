@@ -62,11 +62,12 @@ const CardExample = () => {
     console.log("🚀 ~ ition ~ index", index);
     console.log("🚀 ~centerSlideDataIndex--111", centerSlideDataIndex);
     console.log("🚀 subtract", index - centerSlideDataIndex);
-    ref?.current?.swipeTo(index - centerSlideDataIndex);
+    const result = ref?.current?.swipeTo(index - centerSlideDataIndex);
+    
   };
 
   return (
-    <div className="card">
+    <div className="work">
       <div id="featured">
         <h1>Featured Works</h1>
       </div>
@@ -75,6 +76,7 @@ const CardExample = () => {
           width: "85%",
           position: "relative",
           right: "-9%",
+          
         }}
       >
         <ResponsiveContainer

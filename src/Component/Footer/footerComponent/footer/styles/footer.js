@@ -5,6 +5,7 @@ export const Container = styled.div`
   background: rgb(50 79 197);
   border-radius: 10px 10px 0 0;
   padding: 60px 30px;
+  margin-top:10px;
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
@@ -23,7 +24,7 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+  ${'' /* margin-left: 60px; */}
 `;
 
 export const Row = styled.div`
@@ -41,16 +42,27 @@ export const Link = styled.a`
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
+  display:flex;
+  justify-content:center;
 
   &:hover {
     color: rgb(134 242 157);
     transition: 200ms ease-in;
+  }
+  @media(max-width:1000px){
+    font-size:14px;
   }
 `;
 
 export const Title = styled.p`
   font-size: 24px;
   color: #fff;
-  margin-bottom: 40px;
   font-weight: bold;
+  display:flex;
+  justify-content:center;
+  margin-bottom:50px;
+  @media(max-width:1000px){
+    font-size:20px;
+    margin-bottom:20px;
+  }
 `;

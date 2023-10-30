@@ -1,4 +1,21 @@
+.b{
+  display: flex;
+  width:90vw;
+  margin:10px auto;
+  justify-content: space-between;
+}
+.content{
+  margin: 0;
+  padding: 20px;
+}
+
+.postImage{
+  width:45vw;
+  height:650px;
+}
+
 .objective {
+ 
   display: flex;
   width: 80%;
   margin-left: 10%;
@@ -6,7 +23,7 @@
   justify-content: center;
 }
 .aboutDiv {
-  width: 20%;
+  width: 25%;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
     rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
     rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
@@ -23,31 +40,32 @@
   flex-wrap: wrap;
 }
 .adminBodyDiv {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 #adminHeading {
   margin: 0 0 30px 0;
 }
 .adminBodyImage {
-  margin: 10px;
+  margin: 40px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
     rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
     rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 .student {
-  width: 80%;
+  width: 90%;
   max-height: 4000px;
   display: flex;
   border-radius: 10px;
   background: #dedede;
+  margin:0 auto;
   margin-bottom: 100px;
-  margin: 50px 0 100px 10%;
+  /* margin: 50px 0 100px 10%; */
 
   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
 }
 .stuselection {
   display: flex;
-  margin-left: 20px;
+  margin:0 10px ;
   flex-direction: column;
   justify-content: center;
 }
@@ -76,8 +94,9 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 20px;
-  margin-left: 10%;
+  /* padding: 20px; */
+  /* margin-left: 10%; */
+  margin:0 auto;
 }
 .teamEle {
   margin: 20px;
@@ -86,7 +105,12 @@
   height: 310px;
   box-shadow: 20px 20px 60px #bdbdbd, -20px -20px 60px #ffffff;
 }
+
+/* button{
+  width:400px;
+} */
 .button-30 {
+  width:200px;
   align-items: center;
   appearance: none;
   background-color: #fcfcfd;
@@ -99,6 +123,7 @@
   cursor: pointer;
   display: inline-flex;
   font-family: "JetBrains Mono", monospace;
+  
   height: 48px;
   justify-content: center;
   line-height: 1;
@@ -132,4 +157,47 @@
 .button-30:active {
   box-shadow: #d6d6e7 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+@media(max-width:924px){
+
+  .b{
+    flex-direction: column;
+  }
+  .postImage{
+    margin: 0 auto;
+    width:55vw;
+    height:50vw;
+  }
+  
+  #Heading{
+    font-size: 6vw;
+    padding-top: 7vw;
+  }
+  .aboutDiv{
+    width:60%;
+  }
+  .Secy{
+    flex-direction: column;
+  }
+  .secyImage{
+    width:300px;
+    margin:20px auto;
+  }
+}
+
+@media(max-width:667px){
+  .student{
+    flex-direction: column;
+  }
+  .stuselection{
+    width:90%;
+  }
+  .team{
+    width:90%;
+    margin:10px auto;
+  }
+  .stuButton {
+    margin: 20px auto;
+  }
 }

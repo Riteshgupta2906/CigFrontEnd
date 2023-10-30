@@ -14,24 +14,23 @@ body {
 #Heading {
   font-size: 5em;
 }
-
-.banner {
+.b{
   margin: 100px 0 100px 0;
-  height: 500px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 40px;
 }
 .eventContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 100px;
   text-align: justify;
-  width: 40%;
+  width: 90%;
+  margin:0 auto;
 }
 .selection {
-  margin: 15px 5px 10px 160px;
+  margin: 15px auto;
   display: flex;
   width: 80%;
   justify-content: space-around;
@@ -73,12 +72,13 @@ body {
   text-align: justify;
 }
 .EventPost {
+  width: 90%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  margin: 10px 25px 10px 25px;
-  padding: 0 20px 0 20px;
+  margin: 10px auto;
+  padding: 0 20px;
   justify-content: center;
 }
 .event .ant-btn-primary {
@@ -99,8 +99,7 @@ span {
   color: #000;
   text-transform: uppercase;
   font-weight: 600;
-  margin-left: 30px;
-  margin-bottom: 30px;
+  margin:20px auto;
   cursor: pointer;
   display: inline-block;
 }
@@ -118,9 +117,9 @@ span {
   box-shadow: 8px 8px #99bdff;
   transition: 0.3s;
 }
-.postImage {
-  width: 500px;
-  height: 100%;
+.mainImage {
+  width:45vw;
+  height:650px;
 }
 .modalContent {
   text-align: justify;
@@ -149,4 +148,19 @@ span {
 }
 .modalStyle .ant-modal-content {
   padding: 0 20px 0 0;
+}
+
+@media(max-width:1007px){
+  .selection{
+    flex-direction: column;
+  }
+  .eventContent{
+    text-align: center;
+  }
+  .mainImage{
+    margin: 0 auto;
+    width:55vw;
+    height:60vw;
+  }
+ 
 }

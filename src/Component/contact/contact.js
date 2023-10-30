@@ -3,6 +3,7 @@
 import Right from "./right"
 import Left from "./left"
 import './contact.css'
+import React from "react";
 
 export default function Contact() {
   return (

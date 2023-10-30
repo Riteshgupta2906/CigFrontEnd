@@ -11,16 +11,27 @@
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-top: 5vh;
 }
 #home_img {
   width: 100%;
-  height: 47.5vw;
+  /* height: 47.5vw; */
+ 
 }
 
 #img_home {
   width: 100%;
 }
-
+.wrapper,.wrapper_a{
+  display: flex;
+  width:90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.wrapper_a{
+  margin-top: 30px;
+}
 #line {
   position: absolute;
   width: 0.13vw;
@@ -32,11 +43,11 @@
 #btn_home {
   position: absolute;
   z-index: 2;
-
-  width: 14.64vw;
-  height: 3.01vw;
   left: 8.74vw;
   top: 37.6vw;
+  width: 14.64vw;
+  height: 3.01vw;
+ cursor: pointer;
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
@@ -54,21 +65,29 @@
   box-shadow: 0px 4px 8px rgba(24, 25, 36, 0.37);
   border-radius: 3px;
   margin-top: 75px;
+  
 }
 
 #btn_home:hover {
   background: #102886;
   border-radius: 3px;
 }
+/* #btn_home span{
+  margin-top: 2rem;
+} */
 
-.btn_home > span {
+#btn_home > span {
   position: absolute;
   top: 0.65vw;
   width: 100%;
+  
   left: 0px;
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
+}
+#btn_home span a{
+  color:white;
 }
 
 #title {
@@ -112,57 +131,61 @@
 }
 
 #man {
-  width: 35.99vw;
-  height: 30.24vw;
-  position: relative;
-  right: 25%;
-  margin-top: 280px;
+  /* width: 500px;
+  height: 400px;
+  position: relative; */
+  /* right: 25%; */
+  /* margin-top: 100px; */
+  width:40vw;
+  height:30vw;
 }
 
 #arrow {
   position: fixed;
   width: 3.07vw;
   height: 3.07vw;
-  left: 94.5vw;
-  top: 37.8vw;
+  right:5vw;
+  bottom:10vh;
 }
 
 #home_head {
-  position: absolute;
-  width: 34.1vw;
-  height: 17.4vw;
-  left: 53.5vw;
-  top: 67.06vw;
+  /* position: absolute; */
+  width: 35vw;
+  height: 20vw;
+  /* left: 53.5vw;
+  top: 60vw; */
 }
 
 #home_head_a {
-  position: absolute;
-  width: 41.9vw;
-  height: 16.69vw;
-  left: 8.74vw;
-  top: 108.3vw;
+ 
+  width: 45vw;
+  height: 18vw;
+margin-bottom: 15px;
 }
 
-#man_a {
+/* #man_a {
   margin-top: 7.5vw;
   width: 35.7vw;
   height: 30.6vw;
   margin-left: 54.3vw;
-}
+} */
 
 #vw {
-  position: absolute;
-  width: 9.8vw;
-  height: 1.36vw;
-  left: 53.5vw;
-  top: 87.4vw;
+  /* position: absolute; */
+  /* width: 150px;
+  height: 150px; */
+  margin-left: 15px;
+  /* left: 53.5vw;
+  top: 78vw; */
 
   /* unwrapped button 2 */
+  /* left:830px;
+  top:330px; */
 
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.17vw;
+  font-size: 1.3vw;
   line-height: 1.46vw;
   /* or 125% */
 
@@ -331,4 +354,35 @@
 .hor_card_home {
   display: inline-block;
   margin-right: 3.73vw;
+}
+
+@media(max-width:707px){
+  .wrapper,.wrapper_a{
+    flex-direction: column;
+    margin:0 auto;
+    margin-top: 10px;
+  }
+  .wrapper_a{
+    margin-top: 30px;
+  }
+  #man{
+    width:80vw;
+    height:40vw;
+    margin-top: 10px;
+  }
+ 
+  #home_head{
+    width:60vw;
+    height:45vw;
+  }
+  #home_head_a{
+    width:65vw;
+    height:30vw;
+  }
+  #vw{
+    width:25vw;
+    
+    margin: 0 auto;
+    font-size: 3vw;
+  }
 }

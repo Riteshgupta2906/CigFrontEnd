@@ -42,9 +42,11 @@ iframe {
 /* ------- Side-To-Side --------- */
 
 .sideToSide {
+  width:90%;
   text-align: left;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
+  margin: 0 auto;
 }
 
 /* ------- Left --------- */
@@ -54,7 +56,9 @@ iframe {
 .phone {
   display: flex;
   margin-bottom: 2em;
+  font-size: 16px;
 }
+
 
 .data {
   margin-left: 1.25em;
@@ -71,8 +75,15 @@ iframe {
   grid-template-columns: 1fr 1fr;
   column-gap: 1.5em;
 }
+#contactForm{
+width:90%;
+margin: 0 auto;
+}
 
 /* ------- Right --------- */
+.right{
+  margin: 0 auto;
+}
 
 input,
 textarea {
@@ -124,3 +135,15 @@ button {
 button:focus {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 } */
+@media(max-width:1150px){
+  .sideToSide{
+    display:flex;
+    flex-direction: column;
+  }
+}
+
+@media(max-width:500px){
+  .email,.phone,.address{
+    font-size: 12px;
+  }
+}

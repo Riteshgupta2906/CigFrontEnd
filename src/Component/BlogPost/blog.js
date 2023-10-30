@@ -1,5 +1,5 @@
 import "./styles.css";
-
+import React from "react";
 import postImage from "../images/CreativeWriting.svg";
 import NewPost from "./newPost";
 

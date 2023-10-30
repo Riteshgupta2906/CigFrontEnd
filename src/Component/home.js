@@ -163,14 +163,43 @@ class Home extends Component {
     return (
       <div id="home-main">
         <div id="home_img">
+        <img id="img_home" src={bg} alt="img-home" />
           <div id="btn_home">
-            <span> Let’s Collaborate</span>{" "}
+            <span> <a href="/collaborate">Let’s Collaborate</a></span>
           </div>
-          <img id="img_home" src={bg} alt="img-home" />
+          <div className="wrapper">
+          <div>
+          <img id="man" src={man} alt="man-img" />
+        </div>
+          <div >
           <img id="home_head" src={home_head} alt="home-head" />
+          <a href="/resource" id="vw">
+            {" "}
+            View resources
+          </a>
+          </div>
+          </div>
+          <div className="wrapper_a">
+          <div >
           <img id="home_head_a" src={home_head_a} alt="home-head-a" />
+          <a href="/resource" id="vw">
+            {" "}
+            View resources
+          </a>
+          </div>
+          <div>
+          <img id="man" src={man_a} alt="img-man-a" />
+        </div>
+         
+          </div>
+          <div id="suc_col">Successful Collaborations </div>
+          <div id="col">
+          <Collab />
+        </div>
+          
+         
           {/* <img id="hand" src={hand} alt="hand-img" /> */}
-          <img id="line" src={line} alt="line-img" />
+          {/* <img id="line" src={line} alt="line-img" /> */}
           {/* <img
             name="left"
             id="left_arrow_home"
@@ -186,14 +215,11 @@ class Home extends Component {
             alt="right-arrow"
           /> */}
 
-          <a href="/view" id="vw">
+         
+          {/* <a href="/view" id="vw_a">
             {" "}
             View resources
-          </a>
-          <a href="/view" id="vw_a">
-            {" "}
-            View resources
-          </a>
+          </a> */}
           <img
             id="arrow"
             onClick={this.scroll.bind(this)}
@@ -201,18 +227,13 @@ class Home extends Component {
             alt="arrw"
           />
         </div>
-        <div>
-          <img id="man" src={man} alt="man-img" />
-        </div>
-        <div>
-          <img id="man_a" src={man_a} alt="img-man-a" />
-        </div>
+      
+       
 
-        <div id="suc_col">Successful Collaborations </div>
-        <div id="col">
-          <Collab />
-        </div>
+       
+       
       </div>
+      
     );
   }
 }

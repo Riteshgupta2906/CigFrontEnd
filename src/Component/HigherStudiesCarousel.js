@@ -2,11 +2,13 @@
 import React, { useState, useEffect, useCallback } from "react";
 
 import HS__Data from "./HigherStudiesData";
+// import HS__img1 from "./images/dirr.jpg";
 
 import "./HigherStudiesCarousel.css";
 import LeftArrow from "./images/LeftArrow.svg";
 import RightArrow from "./images/RightArrow.svg";
 import HigherStudiesCarousel__bg from "./images/Ellipse.png";
+import director from "./images/Aries.png";
 
 const HigherStudiesCarousel = () => {
   const [current, setCurrent] = useState(0);
@@ -55,6 +57,7 @@ const HigherStudiesCarousel = () => {
             <img
               className="HS__CarouselPic"
               src={HS__Data[current].image}
+              // src="cig_logo.ico"
               alt="Author"
             />
           </div>

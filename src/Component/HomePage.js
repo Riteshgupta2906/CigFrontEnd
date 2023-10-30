@@ -1,5 +1,5 @@
 import "../App.css";
-
+import React from "react";
 import Home from "./home";
 import CardExample from "./Corousel/corousel";
 // import Testimonial from "./Component/testimonial";
