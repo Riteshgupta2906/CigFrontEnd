@@ -162,7 +162,7 @@
 @media(max-width:924px){
 
   .b{
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .postImage{
     margin: 0 auto;
@@ -170,13 +170,12 @@
     height:50vw;
   }
   
+  
   #Heading{
     font-size: 6vw;
-    padding-top: 7vw;
+   
   }
-  .aboutDiv{
-    width:60%;
-  }
+  
   .Secy{
     flex-direction: column;
   }
@@ -190,8 +189,15 @@
   .student{
     flex-direction: column;
   }
+  .objective{
+    width:90%;
+    margin:0 auto;
+  }
   .stuselection{
     width:90%;
+  }
+  .aboutDiv{
+    width:70%;
   }
   .team{
     width:90%;

@@ -357,32 +357,43 @@ margin-bottom: 15px;
 }
 
 @media(max-width:707px){
-  .wrapper,.wrapper_a{
+  .wrapper_a{
+    flex-direction: column-reverse;
+    margin:0 auto;
+    margin-top: 10px;
+  }
+  .wrapper{
     flex-direction: column;
     margin:0 auto;
     margin-top: 10px;
   }
   .wrapper_a{
-    margin-top: 30px;
+    margin-top: 20px;
   }
   #man{
     width:80vw;
     height:40vw;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
  
   #home_head{
     width:60vw;
     height:45vw;
+    margin-bottom: 10px;
   }
   #home_head_a{
     width:65vw;
     height:30vw;
+    margin-bottom: 20px;
   }
   #vw{
     width:25vw;
-    
-    margin: 0 auto;
+   margin: 0 auto;
     font-size: 3vw;
+
+  }
+  #suc_col{
+    margin-top: 7vw;
   }
 }

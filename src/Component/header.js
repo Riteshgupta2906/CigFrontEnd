@@ -52,22 +52,22 @@ const Navbar = () => {
           <div className="cross" onClick={()=>setVisible(false)}><RxCross2 size={22}/></div>
           <ul>
               <li>
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/" onClick={()=>setVisible(false)}>Home</NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about" onClick={()=>setVisible(false)}>About</NavLink>
               </li>
               <li>
-                <NavLink to="/event">Events</NavLink>
+                <NavLink to="/event" onClick={()=>setVisible(false)}>Events</NavLink>
               </li>
               <li>
-                <NavLink to="/resource">Resources</NavLink>
+                <NavLink to="/resource" onClick={()=>setVisible(false)}>Resources</NavLink>
               </li>
               <li id="blg">
-                <NavLink to="/blog">Blog</NavLink>
+                <NavLink to="/blog" onClick={()=>setVisible(false)}>Blog</NavLink>
               </li>
               <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact" onClick={()=>setVisible(false)}>Contact</NavLink>
               </li>
               </ul>  
               
