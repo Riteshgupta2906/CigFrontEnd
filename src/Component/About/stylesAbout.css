@@ -39,11 +39,11 @@
   max-height: 4000px;
   display: flex;
   border-radius: 10px;
-  background: #dedede;
+/*   background: #dedede; */
   margin-bottom: 100px;
   margin: 50px 0 100px 10%;
 
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+/*   box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff; */
 }
 .stuselection {
   display: flex;
