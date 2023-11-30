@@ -97,9 +97,8 @@ export default function Blog() {
         <img className="secyImage" src={vicecp} alt="" />
       </div>
       <br />
-      <h2>Team</h2>
-      <div className="student">
-        <div className="stuselection">
+      <h1>Team</h1>
+               <div className="stuselection">
           <button
             onClick={handleClick}
             name="W"
@@ -129,6 +128,8 @@ export default function Blog() {
             Design
           </button>
         </div>
+      <div className="student">
+       
         <div className="team">
           {data1.map((ele) => (
             <img
