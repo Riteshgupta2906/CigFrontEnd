@@ -13,9 +13,9 @@ function HomePage() {
       <div>
         <CardExample />
       </div>
-      // <div>
-      //   <HigherStudiesCarousel />
-      // </div>
+      <div>
+        <HigherStudiesCarousel />
+      </div>
     </div>
   );
 }
