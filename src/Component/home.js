@@ -164,9 +164,7 @@ class Home extends Component {
       <div id="home-main">
         <div id="home_img">
           <div id="btn_home">
-            <span style="
-    position: relative
-" > Let’s Collaborate</span>{" "}
+            <span id="collaSpan" > Let’s Collaborate</span>{" "}
           </div>
           <img id="img_home" src={bg} alt="img-home" />
           <img id="home_head" src={home_head} alt="home-head" />
