@@ -1,4 +1,3 @@
-//***********Made By Rahul Modi************/
 import React, { useState, useEffect, useCallback } from "react";
 
 import HS__Data from "./HigherStudiesData";
